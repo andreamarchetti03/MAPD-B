@@ -1,0 +1,5 @@
+docker start mysql-db-1
+docker exec -it mysql-db-1 bash
+mysql -u root -p world < /mapd-workspace/dbs/world.sql
+
+mysql -u root -p
